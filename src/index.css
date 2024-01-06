@@ -244,12 +244,13 @@ h1 {
   
   
 }
+/* TITULO HERO SECTION CARLA GIULIANI */
 .cursor-title {
   font-weight: 600;
   font-size: 44px;
   letter-spacing: 2.1px;
   line-height: 1em;
-  
+  white-space: nowrap;
 }
 
 .grid {
