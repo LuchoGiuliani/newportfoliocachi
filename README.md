@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # cachiPortfolio
 
 Hola! En esta aplicación podran encontrar un proyecto relacionado al arte audiovisual. 
@@ -23,3 +24,6 @@ Con el siguiente codigo podran correr la aplicación
 
 Gracias, espero que les guste.
 
+=======
+# newportfoliocachi
+>>>>>>> 6e8aec75bd2e577ae6d7c8ad9fb54b67d84fb54e
