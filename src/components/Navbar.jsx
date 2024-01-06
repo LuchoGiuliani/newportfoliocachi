@@ -9,7 +9,7 @@ import {
 
 function Navbar() {
   return (
-    <div className="flex justify-between gap-3  bg-[#232629] opacity-70 rounded-t-lg fixed sm: items-center z-10 container_title bottom-0 max-h-12  left-1/2 transform -translate-x-1/2 navbar">
+    <div className="flex justify-between gap-3  bg-[#111213] opacity-70 rounded-t-lg fixed sm: items-center z-10 container_title bottom-0 max-h-12  left-1/2 transform -translate-x-1/2 navbar">
       <h1 className=" text-white text-center p-1">Carla Giuliani</h1>
       <a
         className="hover:scale-125"

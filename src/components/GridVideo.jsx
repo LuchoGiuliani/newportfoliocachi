@@ -3,7 +3,7 @@ import React from "react";
 function GridVideo() {
   return (
     <div className="main bg-[rgb(15, 10, 10)]">
-      <div className="main_grid pb-[30px] ">
+      <div className="main_grid  ">
         <div className="grid_link">
           <img
             className="grid_image"

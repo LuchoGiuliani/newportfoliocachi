@@ -17,11 +17,10 @@ body {
 
 * {
   scroll-behavior: smooth;
+  font-family: 'Crimson Text', serif;
 }
 
-h1 {
-  font-family: "DM Serif Display", serif;
-}
+
 
 .sobre_mi {
   font-weight: 600;
@@ -50,7 +49,7 @@ h1 {
 
 .main_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(228px, 1fr));
   max-width: 1220px; /* Asegura que no se formen más de 4 columnas */
   margin: 0 auto; /* Centra la cuadrícula en la pantalla */
   gap: 16px;
@@ -60,10 +59,11 @@ h1 {
 @media (max-width: 768px) {
   .main_grid {
     justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(178px, 1fr));
   }
   .grid_image {
-    max-width: 240px;
-    max-height: 240px;
+    max-width: 260px;
+    max-height: 260px;
     object-fit: cover;
   }
 }
@@ -251,6 +251,7 @@ h1 {
   letter-spacing: 2.1px;
   line-height: 1em;
   white-space: nowrap;
+  font-family: 'Crimson Text', serif;
 }
 
 .grid {

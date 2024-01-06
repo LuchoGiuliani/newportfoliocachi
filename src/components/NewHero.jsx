@@ -52,6 +52,7 @@ const NewHero = () => {
 
     gsap.to(".cursor-title", {
       opacity: 1,
+  
       scrollTrigger: {
         trigger: ".main",
         start: "top bottom",
@@ -60,6 +61,7 @@ const NewHero = () => {
         onUpdate: (self) => {
           const progress = self.progress.toFixed(2);
           gsap.to(".cursor-title", { opacity: 1 - progress });
+          
         },
       },
     });
@@ -125,7 +127,7 @@ const NewHero = () => {
   return (
     <div>
       <main className="main">
-        <h1 className=" text-gray-100 text-lg cursor-title z-[9999] fixed top-2/4 left-2/4 transform -translate-x-2/4 -translate-y-2/4  sm:text-8xl ">
+        <h1 className=" text-[#faeded] text-lg cursor-title z-[9999] fixed top-2/4 left-2/4 transform -translate-x-2/4 -translate-y-2/4  sm:text-8xl ">
           CARLA GIULIANI
         </h1>
         <div className="content">
