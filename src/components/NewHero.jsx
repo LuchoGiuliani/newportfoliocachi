@@ -42,7 +42,7 @@ const NewHero = () => {
     SplitType.revert(text);
 
     const characters = document.querySelectorAll(".char");
-    console.log(characters);
+   
     gsap.to(".char", {
       y: 0,
       stagger: 0.05,
@@ -125,11 +125,10 @@ const NewHero = () => {
   return (
     <div>
       <main className="main">
-        <h1 className=" text-gray-100 text-xl cursor-title z-[9999] fixed top-2/4 left-2/4 transform -translate-x-2/4 -translate-y-2/4  sm:text-8xl ">
+        <h1 className=" text-gray-100 text-lg cursor-title z-[9999] fixed top-2/4 left-2/4 transform -translate-x-2/4 -translate-y-2/4  sm:text-8xl ">
           CARLA GIULIANI
         </h1>
         <div className="content">
-          <div className="cover"></div>
           <div className="grid">
             {gridItems.map((item, index) => (
               <div
