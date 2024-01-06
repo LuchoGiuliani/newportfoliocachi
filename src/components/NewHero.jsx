@@ -44,7 +44,8 @@ const NewHero = () => {
     const characters = document.querySelectorAll(".char");
    
     gsap.to(".char", {
-      y: 0,
+      rotate: 360, // Rotación aleatoria
+        y:0,
       stagger: 0.05,
       delay: 0.2,
       duration: 0.1,
@@ -52,7 +53,6 @@ const NewHero = () => {
 
     gsap.to(".cursor-title", {
       opacity: 1,
-  
       scrollTrigger: {
         trigger: ".main",
         start: "top bottom",
@@ -60,7 +60,8 @@ const NewHero = () => {
         stagger: 0.05,
         onUpdate: (self) => {
           const progress = self.progress.toFixed(2);
-          gsap.to(".cursor-title", { opacity: 1 - progress });
+          gsap.to(".cursor-title", { opacity: 1 - progress  });
+          console.log(progress);
           
         },
       },

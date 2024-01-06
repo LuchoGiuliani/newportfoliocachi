@@ -23,13 +23,13 @@ const TextCarrousel = () => {
       {" "}
       <section className="marquee">
         <div className="marquee_inner">
-          <div className="marquee_part"><img src="videoTapeFilm.png" alt="" /></div>
-          <div className="marquee_part"><img src="videoTapeFilm.png" alt="" /></div>
-          <div className="marquee_part"><img src="videoTapeFilm.png" alt="" /></div>
-          <div className="marquee_part"><img src="videoTapeFilm.png" alt="" /></div>
-          <div className="marquee_part"><img src="videoTapeFilm.png" alt="" /></div>
-          <div className="marquee_part"><img src="videoTapeFilm.png" alt="" /></div>
-          <div className="marquee_part"><img src="videoTapeFilm.png" alt="" /></div>         
+          <div className="marquee_part"><img className="videoTape" src="videoTapeFilm.png" alt="" /></div>
+          <div className="marquee_part"><img className="videoTape" src="videoTapeFilm.png" alt="" /></div>
+          <div className="marquee_part"><img className="videoTape" src="videoTapeFilm.png" alt="" /></div>
+          <div className="marquee_part"><img className="videoTape" src="videoTapeFilm.png" alt="" /></div>
+          <div className="marquee_part"><img className="videoTape" src="videoTapeFilm.png" alt="" /></div>
+          <div className="marquee_part"><img className="videoTape" src="videoTapeFilm.png" alt="" /></div>
+          <div className="marquee_part"><img className="videoTape" src="videoTapeFilm.png" alt="" /></div>         
         </div>
       </section>
     </div>
