@@ -29,8 +29,7 @@ const TextCarrousel = () => {
           <div className="marquee_part"><img src="videoTapeFilm.png" alt="" /></div>
           <div className="marquee_part"><img src="videoTapeFilm.png" alt="" /></div>
           <div className="marquee_part"><img src="videoTapeFilm.png" alt="" /></div>
-          <div className="marquee_part"><img src="videoTapeFilm.png" alt="" /></div>
-          
+          <div className="marquee_part"><img src="videoTapeFilm.png" alt="" /></div>         
         </div>
       </section>
     </div>
