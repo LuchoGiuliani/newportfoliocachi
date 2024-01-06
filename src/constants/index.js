@@ -1,4 +1,4 @@
-import reel from "../assets";
+
 
 export const projects = [
   {
