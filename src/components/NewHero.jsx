@@ -11,15 +11,15 @@ const NewHero = () => {
   const transition = { duration: 0.5, ease: "easeInOut" };
   const gridItems = [
     { row: 1, col: 4, image: "foto-1.jpg" },
-    { row: 1, col: 1, image: "/src/assets/ercdisis.mp4" },
+    { row: 1, col: 1, image: "ercdisis.mp4" },
     { row: 2, col: 8, image: "foto-3.jpg" },
     { row: 2, col: 5, image: "foto-4.jpg" },
-    { row: 3, col: 1, image: "foto-5.jpg" },
+    { row: 3, col: 1, image: "sr.mp4" },
     { row: 4, col: 7, image: "fotos.png" },
     { row: 5, col: 8, image: "MEMORIA.jpg" },
     { row: 6, col: 2, image: "NOVENA.png" },
     { row: 7, col: 3, image: "PAJARO.jpg" },
-    { row: 8, col: 7, image: "SALON_ROJO" },
+    { row: 8, col: 7, image: "cda.mp4" },
     { row: 9, col: 1, image: "foto-5.jpg" },
     { row: 9, col: 6, image: "cachi.png" },
     { row: 10, col: 4, image: "bvs.mp4" },
@@ -32,7 +32,7 @@ const NewHero = () => {
     { row: 17, col: 8, image: "foto-3.jpg" },
     { row: 18, col: 3, image: "PAJARO.jpg" },
     { row: 19, col: 5, image: "MEMORIA.jpg" },
-    { row: 20, col: 4, image: "foto-5.jpg" },
+    { row: 20, col: 4, image: "bvs.mp4" },
   ];
 
   useEffect(() => {}, []);
