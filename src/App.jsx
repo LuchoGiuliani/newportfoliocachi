@@ -9,9 +9,14 @@ import AboutMe from "./components/AboutMe";
 import NewHero from "./components/NewHero";
 import TextCarrousel from "./components/TextCarrousel";
 
+
+
 function App() {
+
+
   return (
-    <main className="App ">
+    <main id="" className="App ">
+      <div className="grain"></div>
       <NewHero className="" />
       <Navbar className="" />
       <TextCarrousel />

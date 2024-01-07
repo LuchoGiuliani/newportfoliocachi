@@ -61,7 +61,7 @@ const NewHero = () => {
         onUpdate: (self) => {
           const progress = self.progress.toFixed(2);
           gsap.to(".cursor-title", { opacity: 1 - progress  });
-          console.log(progress);
+          
           
         },
       },
